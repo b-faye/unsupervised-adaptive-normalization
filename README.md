@@ -49,7 +49,10 @@ The experiments conducted in this study utilize several commonly used benchmark 
 
 In this experiment, we use a shallow CNN in architectures in Mixture Normalization [paper](https://arxiv.org/abs/1806.02892).
 
-**Evolution of accuracy (%) on CIFAR-10**
+<center>
+
+**Evolution of accuracy (%) on CIFAR-10** 
+
 | Model      | Learning Rate | 25 Epochs | 50 Epochs | 75 Epochs | 100 Epochs |
 |------------|---------------|-----------|-----------|-----------|------------|
 | BN-1       | 0.001         | 84.34     | 86.49     | 86.41     | 86.90      |
@@ -58,6 +61,7 @@ In this experiment, we use a shallow CNN in architectures in Mixture Normalizati
 | MN-2       | 0.005         | 83.47     | 84.60     | 85.68     | 85.80      |
 | UCN-1 | 0.001         | 85.15      | 85.80     | 87.97     | 87.97      |
 | ACN-2 | 0.005         | 86.04     | 86.04    | 87.49     | 87.49      |
+
 
 **Evolution of accuracy (%) on CIFAR-100**
 | Model      | Learning Rate | 25 Epochs | 50 Epochs | 75 Epochs | 100 Epochs |
@@ -127,3 +131,5 @@ To apply ACN coherently, we implement unsupervised domain adaptation using [AdaM
 |------------------------|-----------|------------|---------|-----------|
 | AdaMatch              | 25.08     | 31.64      | 20.46   | 24.73     |
 | AdaMatch+UCN    | 33.4     | 43.83      | 40.28   | 42.87     |
+
+</center>
