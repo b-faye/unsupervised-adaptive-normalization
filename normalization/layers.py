@@ -1,4 +1,3 @@
-# Samples moving average estimate parameters
 import tensorflow as tf
 
 class UnsupervisedContextNormalization(tf.keras.layers.Layer):
