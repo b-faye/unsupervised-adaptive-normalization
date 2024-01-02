@@ -112,7 +112,7 @@ In this experiment, we use a Deep Convolutional Neural Network (DenseNet), with 
 ### <center> **Unsupervised Adaptive Normalization in GAN** </center>
 
 In this study, we utilize a DCGAN architecture as the baseline. The Batch Normalization layers in the generator are successively replaced by a Mixture Normalization layer and subsequently by our proposed normalization method, Unsupervised Adaptive Normalization.
-![Frechet Inception Distance](images/fid.png "Frechet Inception Distance")
+![Frechet Inception Distance](images/gan_uan.png "Frechet Inception Distance")
 <center>Figure: Frechet Inception Distance evolution.</center>
 
 ### <center>**Unsupervised Adaptive Normalization in Domain Adaptation**</center>
