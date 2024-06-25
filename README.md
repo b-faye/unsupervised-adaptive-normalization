@@ -2,6 +2,9 @@
 
 This repository is an official implementation and applications of UAN: Unsupervised Adaptive Normalization.
 
+## Paper Submitted to IJCNN 2024. Bilal FAYE et al.
+
+
 ## Introduction
 
 UAN (Unsupervised Adaptive Normalization) introduces a pioneering technique within neural networks, utilizing cluster-driven data grouping to achieve quicker convergence and enhanced performance. This sets it apart from conventional methods such as Batch Normalization and Mixture Normalization.
@@ -133,3 +136,14 @@ To apply UAN coherently, we implement unsupervised domain adaptation using [AdaM
 | AdaMatch+UAN    | 33.4     | 43.83      | 40.28   | 42.87     |
 
 </center>
+
+
+
+```bash
+@inproceedings{faye2024unsupervised,
+  title={UAN: Unsupervised Adaptive Normalization},
+  author={Faye, Bilal and Azzag, Hanane and Lebbah, Mustapha and Bouchaffra, Djamel},
+  booktitle={International Joint Conference on Neural Networks (IJCNN)},
+  year={2024}
+}
+```
