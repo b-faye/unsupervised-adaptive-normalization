@@ -142,7 +142,7 @@ To apply UAN coherently, we implement unsupervised domain adaptation using [AdaM
 ```bash
 @inproceedings{faye2024unsupervised,
   title={UAN: Unsupervised Adaptive Normalization},
-  author={Faye, Bilal and Azzag, Hanane and Lebbah, Mustapha and Bouchaffra, Djamel},
+  author={Faye, Bilal and Azzag, Hanane and Lebbah, Mustapha and Feng, Fangchen},
   booktitle={International Joint Conference on Neural Networks (IJCNN)},
   year={2024}
 }
